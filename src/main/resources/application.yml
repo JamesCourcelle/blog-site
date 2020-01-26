@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: ${DB_USERNAME}
+      password: ${DB_PASSWORD}
+      database: test
+      uri: mongodb://${DB_USERNAME}:${DB_PASSWORD}@localhost:27017/test
